@@ -78,11 +78,11 @@ router.get('/listar', function (req, res) {
 
 function chamando(id) {
 
-    var merda;
+    var aux;
     modelsUsers.findOne({people_id: 1}).exec(function (err, storys) {
         //res.send("aa: " + storys);
-       merda = storys;
-return merda;
+       aux = storys;
+		return aux;
     });
     
 }
